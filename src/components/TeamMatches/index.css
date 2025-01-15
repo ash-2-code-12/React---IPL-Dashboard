@@ -1,0 +1,71 @@
+.loader {
+  padding-top: 50%;
+}
+.team-matches-section {
+  width: 100%;
+  margin: 0;
+  padding: 12px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bree Serif';
+  background-attachment: fixed;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+}
+.team-banner {
+  width: 100%;
+  max-width: 720px;
+  margin: 28px 0 0 0;
+  display: block;
+}
+.latest-match-heading {
+  color: #ffffff;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 12px 0;
+  max-width: 720px;
+}
+.recent-matches-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .recent-matches-list {
+    gap: 20px;
+  }
+}
+.kkr {
+  background: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.rcb {
+  background: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.kxp {
+  background: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.csk {
+  background: linear-gradient(to bottom, #f7db00, #13418b);
+}
+.rr {
+  background: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.mi {
+  background: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.sh {
+  background: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+.dc {
+  background: linear-gradient(to bottom, #1e293b, #0f172a);
+}

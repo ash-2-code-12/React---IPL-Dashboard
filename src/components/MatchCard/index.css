@@ -1,0 +1,66 @@
+.match-card-section {
+  background-color: #0f172a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 calc(50% - 12px);
+  padding: 12px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  height: 220px;
+  cursor: pointer;
+}
+.mc-team-logo {
+  height: 60px;
+  object-fit: contain;
+  margin: 0;
+}
+.mc-team-name {
+  font-size: 14px;
+  font-weight: 200;
+  width: 100%;
+  height: 36px;
+  margin: 0;
+}
+.mc-result {
+  font-size: 10px;
+  font-weight: 200;
+  width: 100%;
+  height: 32px;
+  margin: 0;
+}
+.mc-status {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
+@media (min-width: 768px) {
+  .match-card-section {
+    flex: 1 1 calc(33.33% - 20px);
+    padding: 20px;
+    height: 260px;
+    gap: 20px;
+  }
+  .mc-team-logo {
+    height: 64px;
+  }
+  .mc-team-name {
+    height: auto;
+    font-size: 16px;
+  }
+  .mc-result {
+    font-size: 12px;
+  }
+  .mc-status {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,65 @@
+.latest-match-section {
+  width: 100%;
+  max-width: 720px;
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  margin: 0 0 24px 0;
+}
+.lms-first-section {
+  width: 75%;
+  padding-top: 16px;
+  margin: 0;
+  font-weight: 400;
+}
+.lms-team-name {
+  font-size: 18px;
+}
+.lms-match-date {
+  font-size: 18px;
+}
+.lms-venue {
+  font-size: 11px;
+}
+.lms-result {
+  font-size: 11px;
+}
+.lms-team-logo {
+  width: 25%;
+  margin: 0;
+}
+.lms-rule {
+  width: 100%;
+  border: 1.6px solid #475569;
+}
+.lms-second-section {
+  width: 100%;
+}
+.lms-info-label {
+  font-size: 14px;
+}
+.lms-info {
+  font-size: 11px;
+}
+@media (min-width: 768px) {
+  .latest-match-section {
+    padding: 20px;
+  }
+  .lms-rule {
+    display: none;
+  }
+  .lms-first-section {
+    width: 38%;
+  }
+  .lms-team-logo {
+    width: 24%;
+  }
+  .lms-second-section {
+    width: 38%;
+    text-align: right;
+  }
+}
